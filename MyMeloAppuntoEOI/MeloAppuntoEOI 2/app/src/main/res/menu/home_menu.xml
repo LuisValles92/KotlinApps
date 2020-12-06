@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <!-- Oculto los menus que no necesito -->
+    <item
+            android:id="@+id/done"
+            android:orderInCategory="1"
+            android:title="Tareas hechas"
+            android:visible="false"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/todo"
+            android:orderInCategory="2"
+            android:visible="false"
+            android:title="Tareas por hacer"
+            app:showAsAction="never" />
+    <!-- Oculto los menus que no necesito -->
+
+
+    <item
+            android:id="@+id/logout"
+            android:orderInCategory="3"
+            android:visible="true"
+            android:title="Salir"
+            app:showAsAction="never" />
+
+
+
+</menu>

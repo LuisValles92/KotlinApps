@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.SignupFragment">
+
+    <ProgressBar
+            android:paddingBottom="10dp"
+            android:id="@+id/miProgressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:indeterminate="true"
+            android:max="100"
+            android:visibility="invisible"
+            android:backgroundTint="@android:color/white"
+            android:indeterminateTint="@color/colorAccent"
+            android:layout_marginTop="-7dp"/>
+
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:padding="30dp"
+                      android:layout_height="wrap_content">
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Nombre"
+                      android:id="@+id/txtName"
+                      android:textSize="20sp"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Apellidos"
+                      android:id="@+id/txtSurname"
+                      android:textSize="20sp"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Email"
+                      android:inputType="textEmailAddress"
+                      android:id="@+id/txtEmail"
+                      android:textSize="20sp"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Constraseña"
+                      android:inputType="textPassword"
+                      android:id="@+id/txtPass"
+                      android:textSize="20sp"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Repetir constraseña"
+                      android:inputType="textPassword"
+                      android:id="@+id/txtPass2"
+                      android:textSize="20sp"/>
+
+            <Button
+                    android:id="@+id/btnRegister"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Registrarme"
+                    android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

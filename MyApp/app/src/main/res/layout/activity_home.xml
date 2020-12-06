@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/standard_margin"
+    android:layout_marginRight="@dimen/standard_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".firebase.homeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:text="BIENVENID@!"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/bienvenidoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:text="USER"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/botonfbSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#9999"
+        android:text="SALIR"
+        android:textColor="#99030303" />
+
+</LinearLayout>

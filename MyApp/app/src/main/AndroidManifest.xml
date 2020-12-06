@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/myappicono"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/myappicono_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".calculadora.calculadoraActivity"></activity>
+        <activity android:name=".dado.DadoActivity" />
+        <activity android:name=".Fragment2.Fragment2Activity" />
+        <activity android:name=".firebase.homeActivity" />
+        <activity android:name=".firebase.registroActivity" />
+        <activity android:name=".firebase.firebaseActivity" />
+        <activity android:name=".superheroes.superheroesActivity" />
+        <activity
+            android:name=".Horario.HorarioActivity"
+            android:theme="@style/Horario" />
+        <activity android:name=".juego.juegoActivity" />
+        <activity android:name=".horas.horasActivity" />
+        <activity android:name=".suma.sumaActivity" />
+        <activity android:name=".Tab.PageAdapter" />
+        <activity android:name=".Tab.TabActivity" />
+        <activity android:name=".NavigationDrawer.PerfilActivity" />
+        <activity android:name=".Fragment.FragmentActivity" />
+        <activity android:name=".NavigationDrawer.NavigationDrawerActivity" />
+        <activity android:name=".wallapop.WallapopActivity" />
+        <activity android:name=".album.AlbumDetalleActivity" />
+        <activity android:name=".album.AlbumActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Tab.FormularioFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="FORMULARIO:"
+        android:textSize="45dp" />
+
+    <EditText
+        android:id="@+id/ffCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:text="EMAIL"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/ffNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NOMBRE"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/ffContrasenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:text="PASS"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/ffGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:text="VALIDAR"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="*Email: debe contener un @ y un punto\n*Nombre: mayor que 1 caracter\n*Contraseña: mayor que 4 caracteres"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

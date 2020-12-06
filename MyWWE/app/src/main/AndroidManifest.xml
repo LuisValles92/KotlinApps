@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luisvalles.mywwe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ECW.EcwTgHActivity"></activity>
+        <activity android:name=".ECW.EcwTgFActivity" />
+        <activity android:name=".ECW.EcwIsHActivity" />
+        <activity android:name=".ECW.EcwIsFActivity" />
+        <activity android:name=".ECW.EcwIdHActivity" />
+        <activity android:name=".ECW.EcwIdFActivity" />
+        <activity android:name=".EcwTgActivity" />
+        <activity android:name=".EcwIdActivity" />
+        <activity android:name=".EcwIsActivity" />
+        <activity android:name=".EcwActivity" />
+        <activity android:name=".SD.SdTgHActivity" />
+        <activity android:name=".SD.SdTgFActivity" />
+        <activity android:name=".SD.SdIsHActivity" />
+        <activity android:name=".SD.SdIsFActivity" />
+        <activity android:name=".SD.SdIdHActivity" />
+        <activity android:name=".SD.SdIdFActivity" />
+        <activity android:name=".NXT.NxtTgHActivity" />
+        <activity android:name=".NXT.NxtTgFActivity" />
+        <activity android:name=".NXT.NxtIsHActivity" />
+        <activity android:name=".NXT.NxtIsFActivity" />
+        <activity android:name=".NXT.NxtIdHActivity" />
+        <activity android:name=".NXT.NxtIdFActivity" />
+        <activity android:name=".SdTgActivity" />
+        <activity android:name=".SdIdActivity" />
+        <activity android:name=".SdIsActivity" />
+        <activity android:name=".NxtTgActivity" />
+        <activity android:name=".NxtIdActivity" />
+        <activity android:name=".NxtIsActivity" />
+        <activity android:name=".RAW.RawTgHActivity" />
+        <activity android:name=".RAW.RawTgFActivity" />
+        <activity android:name=".RAW.RawIsHActivity" />
+        <activity android:name=".RAW.RawIsFActivity" />
+        <activity android:name=".RAW.RawIdHActivity" />
+        <activity android:name=".RAW.RawIdFActivity" />
+        <activity android:name=".RawTgActivity" />
+        <activity android:name=".RawIdActivity" />
+        <activity android:name=".RawIsActivity" />
+        <activity android:name=".SdActivity" />
+        <activity android:name=".NxtActivity" />
+        <activity android:name=".RawActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".horas.horasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/numhrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="NUM DE HORAS" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultadohrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/botonhrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#E91E63"
+        android:text="DALE"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ejemplo: 1000 horas son 5 semanas 6 dias y 16 horas"
+        android:textSize="10dp" />
+
+
+</LinearLayout>

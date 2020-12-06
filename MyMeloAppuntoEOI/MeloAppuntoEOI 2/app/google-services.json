@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "76462172409",
+    "firebase_url": "https://mymeloappuntoeoi.firebaseio.com",
+    "project_id": "mymeloappuntoeoi",
+    "storage_bucket": "mymeloappuntoeoi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76462172409:android:9057b75ebd609d5fde1a28",
+        "android_client_info": {
+          "package_name": "es.attomic.meloappuntoeoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76462172409-lg3gn8apea359qqn95arpra12a7l79v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7i9tpB2aK_mm3cl2OAc6mvQQVuhlBzs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76462172409-lg3gn8apea359qqn95arpra12a7l79v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
